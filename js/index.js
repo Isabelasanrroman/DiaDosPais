@@ -178,3 +178,25 @@ function trocarMensagem() {
 }
 
 setInterval(trocarMensagem, 4000);
+
+
+
+
+
+
+
+
+
+const giftBox =
+document.getElementById("giftBox");
+
+const giftArea =
+document.querySelector(".gift-area");
+
+giftBox.addEventListener("click",()=>{
+
+  giftBox.classList.add("open");
+
+  giftArea.classList.add("show");
+
+});
